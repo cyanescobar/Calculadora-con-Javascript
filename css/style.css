@@ -1,0 +1,37 @@
+/*Reseteo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Body*/
+body {
+    font-family: "ComicNeue-Bold.ttf";
+    background-image: url("../assets/img/4ca6fa39-12aa-4d6b-9588-15a6baf0a201.jfif");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Texto*/
+h1 {
+    text-align: center;
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+h6 {
+    margin: 5px;
+    padding: 5px;
+}
+/*Fuente*/
+@font-face {
+    font-family: "ComicNeue-Bold.ttf";
+    src:url("../assets/font/ComicNeue-Bold.ttf");
+}
+/*Botón Calculadora*/
+.botonCalculadora {
+    margin: 10px;
+    padding: 10px;
+}
