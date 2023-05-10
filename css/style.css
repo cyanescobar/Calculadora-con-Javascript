@@ -13,17 +13,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*Texto*/
+/*Titulo*/
 h1 {
     text-align: center;
-    background-color: aquamarine;
+    text-decoration: underline;
     border-radius: 5px;
+    height: 50px;
     margin: 5px;
     padding: 5px;
 }
 h6 {
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
 }
 /*Fuente*/
 @font-face {
@@ -34,4 +35,6 @@ h6 {
 .botonCalculadora {
     margin: 10px;
     padding: 10px;
+    height: 50px;
+    background-color: aquamarine;
 }
